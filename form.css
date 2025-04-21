@@ -1,0 +1,98 @@
+h1 {
+    text-align: center;
+    color: blue;
+    font-weight: 600;
+
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+
+
+}
+
+.dados {
+    text-align: center;
+    color: blue;
+    padding: 20px;
+}
+
+.escolha {
+
+    text-align: center;
+    color: white;
+    line-height: 2px;
+}
+
+.radio {
+    align-items: center;
+    color: blue;
+    text-align: center;
+    line-height: 20px;
+    padding-right: 300px;
+}
+
+.senior {
+    text-align: center;
+
+    color: white;
+}
+
+.select {
+    text-align: center;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.tec {
+    text-align: center;
+    color: white;
+}
+
+.box {
+    text-align: center;
+    color: blue;
+}
+
+.exp {
+    color: blue;
+    text-align: center;
+}
+
+.area {
+    text-align: center;
+    color: blue;
+
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+}
+
+.button {
+    margin-bottom: 300px;
+    text-align: center;
+    margin-left: 400px;
+    color: blue;
+    padding-bottom: 4px;
+
+
+}
+
+
+
+body {
+    background-image: url(room.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+h3 {
+    color: white;
+}

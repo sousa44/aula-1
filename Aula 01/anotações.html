@@ -1,0 +1,114 @@
+<!--
+head (configurações do html )
+<meta charset="UTF-8 " (reconhece caracteres especiais )
+-->
+
+
+<!-- titulo-->
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+<!-- Paragrafo -->
+
+<p> ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora at eaque atque ipsam ab debitis labore
+    ratione nisi cupiditate, ducimus facilis error eius maxime magni cum voluptate incidunt nostrum possimus!</p>
+
+<!-- NAV (BLOCO DE LINKS )-->
+
+<!-- a tag img não faz nada sozinha, precisamos do atributo src para renderizar/ mostrar ao usuario-->
+
+<img src="imagem.jpg">
+
+<!-- atributo alt é necessário para o uso de imagem.-->
+<img src="minha-imagem.jpg" alt="Minha imagem">
+
+<!-- caso a imagem tenha algum problema para carregar, aparecerá um texto para orientar o usuário-->
+
+<!-- usar para testes de links-->
+<a href="#">
+
+    <!-- Usamos quando se tem um conjunto de dados e precisa ser apresentadas ordenadamente -->
+    <table> </table>
+
+    <table> </table> <!-- Tabela -->
+    <tr></tr> <!-- colula-->
+    <td></td> <!-- linha-->
+    <tr></tr> <!-- coluna-->
+    <table></table> <!-- tabela -->
+
+    <!-- Uma tabela tem mais atributos, eles são -->
+
+    <thead></thead> <!-- Separa o cabeçalho da tabela-->
+    <tbody></tbody> <!-- separa o corpo da tabela-->
+    <tfoot></tfoot> <!-- separa o final da tabela -->
+
+    <!-- id e class 
+  id e Class são uma forma de identificar elementos em seu html.
+
+  É muito importante saber utiliza-los pois são muito utilizados em todos os
+  codigos por ai na internet.
+
+  Vamos usa los com CSS e Javascript.
+
+  Cada ID tem um nome próprio por página, isso mesmo, apenas 1 nome de ID por página.
+
+  Se sua página tiver mais de 1 ID com nome igual está incorreto.
+
+  É como se fossem impressões digitais de nossos dedos ou RGs.
+
+
+
+
+
+-->
+
+    <h1 id="meu-primeiro-id"> conteudo </h1> incorreto
+    <h1 id="meu-primeiro-id"> conteudo </h1>
+
+    <h1 id="meu-primeiro-id"> conteudo</h1>
+    <h1 id="meu-segundo-id"> conteudo </h1> correto
+
+    <!--
+Já com o class conseguimos utilizar mais de 1x por página 
+Identificamos um grupo de elementos, reaproveitando o codigo deixando 
+mais agil nosso desenvolvimento.
+
+
+Formulários :
+Usado para enviar informações para uma determinada funcionalidade do sistema.
+Com eles temos várias possibilidades de comunicação. 
+
+
+Podemos enviar informações para o backend, submeter dados e salvar no 
+LocalStorage, entre outros. 
+
+Representado pela Tag <form> </form>
+
+nunca usamos apenas a tag <form> </form> 
+junto a elas temos outras como: 
+-->
+
+    <input>
+    <textearea>
+        <button>
+            <select>
+                <fieldset>
+                    <label>
+
+                        <label for="nome"> nome </label> <!-- titulo -->
+                        <input type="text" id="nome"> <!-- Campo -->
+
+                        <!-- o for irá referenciar o ID -->
+                        <!-- atributo requerided indica uma revisão dos formularios -->
+                        <!-- button (enviar formulário )-->
+
+                        <input type="checkbox" name="variospreco" value="150"> R$ 150
+                        <!-- com o checkbox pode se selecionar mais de uma -->
+
+                        <input type="radio" name="150" value="150">
+
+                        <!-- com o tipo radio pode se selecionar só um -->

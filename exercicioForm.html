@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title> Meu Formulário </title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form>
+        <h1> Cadastro de DEVs </h1>
+        <hr>
+        <h2> Complete suas informações</h2>
+
+        <div class="dados">
+            <label for="nome"> Nome: </label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+            <br> <br>
+
+            <label for="email"> Email: </label>
+            <input type="email" id="email" placeholder="Digite seu email" required>
+
+            <label for="sobrenome"> Sobrenome: </label>
+            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" required>
+        </div>
+        <br> <br>
+
+
+
+        <h3 class="escolha"> De qual lado da aplicação você desenvolve? </h3>
+
+
+        <div class="radio">
+
+
+            <input type="radio" name="front" value="front-end" required> Front-end <br>
+            <input type="radio" name="back" value="back-end" required> Back-end <br>
+            <input type="radio" name="Full" value="fullstack" required> Fullstack <br>
+
+        </div>
+
+        <h3 class="senior"> Senioridade </h3>
+        <div>
+            <select class="select">
+
+                <option> Pleno </option>
+                <option> Senior</option>
+                <option> Junior </option>
+
+            </select>
+        </div>
+
+
+        <h3 class="tec"> Selecione as tecnologias que utliza: </h3>
+
+        <div class="box">
+            <input type="checkbox" name="html" id="html" required> HTML
+            <input type="checkbox" name="css" id="css" required> CSS
+            <input type="checkbox" name="script" id="script" required> JavaScript
+            <input type="checkbox" name="php" id="php" required> PHP
+            <input type="checkbox" name="c#" id="c#" required> C#
+            <input type="checkbox" name="python" id="python" required> Python
+            <input type="checkbox" name="java" id="java" required> Java
+        </div>
+
+
+        <div class="area">
+            <h3> Conte um pouco mais da sua experiência: </h3>
+
+            <textarea> </textarea>
+        </div>
+
+        <button class="button"> Concluido</button>
+    </form>
+
+</body>
